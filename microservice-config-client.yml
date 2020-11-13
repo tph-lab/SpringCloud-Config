@@ -8,7 +8,7 @@ server:
 
 spring: 
   profiles: dev
-  application:
+  application: 
       name: microconfig-test-client
 
 eureka:
