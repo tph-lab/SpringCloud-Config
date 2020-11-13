@@ -2,8 +2,12 @@ spring:
    profiles:
       active:
       - dev
-
-
+      
+---
+spring:
+          profiles: dev
+          application:
+            name:microservice-test-dev
       
 ---
 spring:
