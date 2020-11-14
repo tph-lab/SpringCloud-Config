@@ -25,7 +25,7 @@ logging:
   level:
     com.yc: debug
 
-# eureka:
+eureka:
 #   client: # 客户端进行Eureka注册的配置
 #     service-url:
 #       defaultZone: http://admin:a@localhost:7001/eureka      #注意: dev环境下  eureka的端口要与前面的eureka的配置保持统一，这里是 7001
@@ -71,7 +71,7 @@ logging:
   level:
     com.yc: debug
 
-# eureka:
+eureka:
 #   client: # 客户端进行Eureka注册的配置
 #     service-url:
 #       defaultZone: http://admin:a@localhost:7002/eureka
