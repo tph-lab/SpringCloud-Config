@@ -6,8 +6,8 @@ spring:
 ---
 spring:
    profiles: dev
-      application:
-         name: microservice-test-dev
+   application:
+      name: microservice-test-dev
       
 ---
 spring:
