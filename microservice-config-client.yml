@@ -15,6 +15,9 @@ spring:
 #  client:
 #   service-url:
 #     defaultZone: http://admin:a@localhost:7001/eureka
+info:
+   app.name: microservice-config-dev-updated
+   company.name: yc222
 ---
 server:
   port: 8102
