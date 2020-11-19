@@ -15,11 +15,10 @@ spring:
       kafka:
         binder:
           brokers: 120.26.177.155       #连接kafka
-
-   eureka:
-     client:
-      service-url:
-       defaultZone: http://admin:a@localhost:7001/eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:a@localhost:7001/eureka
 info:
    app.name: microservice-config-dev-updated02
    company.name: yc
