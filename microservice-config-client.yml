@@ -21,7 +21,7 @@ spring:
 #   service-url:
 #     defaultZone: http://admin:a@localhost:7001/eureka
 info:
-   app.name: microservice-config-dev-updated
+   app.name: microservice-config-dev-updated01
    company.name: yc
 ---
 server:
